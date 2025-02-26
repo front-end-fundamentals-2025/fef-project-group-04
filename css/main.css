@@ -1,14 +1,3 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-*{
-    font-family: "Roboto Condensed", serif;
-}
-
 nav{
     text-align: center;
     padding-top: 80px;
@@ -93,14 +82,18 @@ img:hover {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1430px) {
     .products-container {
      width: 1600px;
      grid-auto-rows: 400px;
      gap: 2rem;
     }
-    
+
     #main-title {
         font-size: 4rem;
+    }
+
+    .page-description {
+        font-size: 2rem;
     }
 }
