@@ -11,10 +11,15 @@ html, body {
 
 nav{
     text-align: center;
-    padding-top: 30px;;
+    padding-top: 80px;
 }
 
 #main-title {
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.product-type {
     margin-top: 10%;
     margin-left: 30px;
 }
@@ -44,6 +49,17 @@ a:hover {
     max-width: 800px;
     grid-auto-rows: 200px;
 }
+
+
+.page-description {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center;
+}
+
+
+
 
 .products-container img {
     width: 100%;
