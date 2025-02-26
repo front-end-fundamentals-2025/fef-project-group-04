@@ -11,10 +11,16 @@ html, body {
 
 nav{
     text-align: center;
-    padding-top: 30px;;
+    padding-top: 80px;
 }
 
 #main-title {
+    font-size: 2em;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.product-type {
     margin-top: 10%;
     margin-left: 30px;
 }
@@ -35,21 +41,30 @@ a:hover {
 .products-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    gap: 2rem; 
+    gap: 1rem; 
     align-items: center; 
     margin: 0 auto; 
     padding: 2rem;
-    margin-top: 10%;
-    width: 100%;
-    max-width: 800px;
+    margin-top:10px;
+    width: 780px;
     grid-auto-rows: 200px;
 }
+
 
 .products-container img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+
+
+.page-description {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center;
+}
+
 
 
 /*Animation: Button*/
@@ -75,4 +90,17 @@ img {
 img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+}
+
+
+@media (min-width: 1200px) {
+    .products-container {
+     width: 1600px;
+     grid-auto-rows: 400px;
+     gap: 2rem;
+    }
+    
+    #main-title {
+        font-size: 4rem;
+    }
 }
