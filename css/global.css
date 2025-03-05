@@ -13,6 +13,9 @@ header {
     /*background-color: brown;*/
     background-color: black;
     padding: 1rem;
+    z-index: 999;
+    position: sticky;
+    top: 0;
 }
 
 nav{
@@ -26,6 +29,10 @@ a  {
     width: 100%;
     color: rgb(255, 255, 255);
     font-size:large;
+}
+
+nav a{
+    padding: 0 100px;
 }
 
 a:hover {
