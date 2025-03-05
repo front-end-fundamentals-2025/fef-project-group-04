@@ -21,6 +21,24 @@ header {
 nav{
     text-align: center;
     padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    width: 25rem;
+    border-radius: 0.3rem;
+    height: 1.5rem;
+    border: 0;
+    height: 1.35rem;
+}
+
+.cart-icon {
+    width: 40px;
+    height: 30px;
+    justify-self: flex-end;
+    padding-right: 30px;
+    padding-left: 230px;
 }
 
 a  {
@@ -29,10 +47,6 @@ a  {
     width: 100%;
     color: rgb(255, 255, 255);
     font-size:large;
-}
-
-nav a{
-    padding: 0 100px;
 }
 
 a:hover {

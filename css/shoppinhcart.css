@@ -53,5 +53,5 @@ section {
 
 footer {
     margin-top: 50px;
-    border: 13px black;
+    border-top: 13px solid black;
 }
