@@ -2,10 +2,6 @@ body {
     margin: 0rem;
 }
 
-header {
-    background-color: brown;
-    padding: 1rem;
-}
 nav {
     display: flex;
     gap: 0.5rem;
