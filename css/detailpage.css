@@ -1,0 +1,13 @@
+.detailpage-image{
+    gap: 1%; 
+    margin: 2%;
+
+}
+
+.right-section-detailpage{
+    background-color: blue;
+}
+
+.left-section-detailpage{
+    background-color: chartreuse;
+}

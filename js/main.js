@@ -1,7 +1,7 @@
 const topButton = document.getElementById('back-to-top');
-const cartButtonAdd = document.getElementById('addToCart');
+/*const cartButtonAdd = document.getElementById('addToCart');
 const cartButtonRemove = document.getElementById('removeFromCart');
-const cartItemsContainer = document.getElementById('cartItems');
+const cartItemsContainer = document.getElementById('cartItems');*/
 
 
 /*Scroll up button*/
@@ -22,7 +22,14 @@ document.getElementById("view-products").addEventListener("click", function() {
     window.location.href = "products.html";
 });
 
-/*Add item button*/
-cartButtonAdd.addEventListener('click', () => {
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".cart-icon").addEventListener("click", function (event) {
+        event.preventDefault();
+        let img = this.querySelector("img");
+        img.classList.add("shake");
+        setTimeout(() => {
+            img.classList.remove("shake");
+            window.location.href = this.href;
+        }, 300);
+    });
 });
-
