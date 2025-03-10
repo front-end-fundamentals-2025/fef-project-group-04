@@ -22,12 +22,13 @@ header {
 }
 
 
-.nav-container{
-    justify-content: space-evenly;
-    align-items: center;
+.nav-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
     padding-top: 20px;
+    width: 100%;
 }
 
 input {
@@ -217,4 +218,3 @@ img {
   .cart-icon img.shake {
     animation: shake 0.3s ease-in-out;
   }
-  
