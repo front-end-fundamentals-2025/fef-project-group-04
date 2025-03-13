@@ -1,5 +1,3 @@
-<!-- The shopping cart button goes here -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
     <script src="js/main.js" defer></script>
+    <script src="js/shoppingcart.js" defer></script>
 </head>
 <body>
     <header> 
@@ -36,16 +35,21 @@
         </nav>
     </header>
     <main>
+        <div class="container">
         <section class="left-section-detailpage">
         <img src="img/1984.jpg" alt="1984 poster">
-        <h2> 1894 ARTISTIC POSTER - SPECIAL VINTAGE EDITION</h2>
+        <h2> 1984 ARTISTIC POSTER - SPECIAL VINTAGE EDITION</h2>
         <p> Printed in hight qulity on premium paper, the poster showcases bold graphic style with contrasting tones 
             and symbolic visual elements such as Big Bother's ever-watching eye. Perfect for collectors or literature enthusiasts</p>
         </section>
         <section class="right-section-detailpage">
-            <p>.</p>
-        </section>
-<button id="addToCart">Add to Cart</button>
+        <button onclick="addToCart({
+            id: 2, 
+            name: '1984 Artistic Poster - Special Vintage Edition',
+            price: 70,
+            image: 'img/1984.jpg'
+        })">Add to Cart</button>
+    </section>
     </main>
     <footer>
         <p> © Postr. 2025</p>

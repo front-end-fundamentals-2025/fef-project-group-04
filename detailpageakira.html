@@ -1,5 +1,3 @@
-<!-- The shopping cart button goes here -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
     <script src="js/main.js" defer></script>
+    <script src="js/shoppingcart.js" defer></script>
 </head>
 <body>
     <header> 
@@ -46,7 +45,12 @@
         A perfect addition for collectors and fans of groundbreaking anime cinema.</p>
         </section>
         <section class="right-section-detailpage">
-            <button id="addToCart">Add to Cart</button>
+            <button onclick="addToCart({
+                id: 1, 
+                name: 'Akira Movie Poster - Special Edition',
+                price: 55,
+                image: 'img/akira.jpg'
+            })">Add to Cart</button>
         </section>
     </div>
     </main>

@@ -12,7 +12,7 @@
     <link 
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
-    <script src="js/main.js" defer></script>
+    <script src="js/shoppingcart.js" defer></script>
 </head>
 <body>
     <header> 
@@ -26,23 +26,27 @@
     <main>
         <div class="container">
             <section class="checkout-one">
-                <a><div class="selected-product">img of product goes here</div><p>info about product goes here</p></a>
-                
+                <h1>Your Cart</h1>
+                <p id="empty-cart" style="display: none;">Your cart is empty.</p>
+                <div id="cart-items"></div>
             </section>
             <section class="checkout-section">
                 <div id="checkout-text">
-                    <p>Total cost:</p>
-                    <p>(0) Item total:</p>
-                    <p>Shipping & handling:</p>
+                    <p>Total cost: <span id="total-cost">0</span> SEK</p>
+                    <p>Item total: <span id="item-count">0</span></p>
+                    <p>Shipping & handling: <span id="shipping-cost">Free</span></p>
                 </div>
                 <button id="checkout-button">Checkout</button>
             </section>
-            <p> The shopping cart will go here once we have it</p>
         </div>
     </main>
-    <footer>
-        <p>products here maybe</p>
-        <p> © Postr. 2025</p>
-    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            displayCart();
+        });
+    </script>
+        <footer>
+            <p> © Postr. 2025</p>
+        </footer>
 </body>
 </html>

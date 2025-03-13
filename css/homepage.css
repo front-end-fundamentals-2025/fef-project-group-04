@@ -54,8 +54,18 @@ button {
     font-size: 15px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     margin-left: 30px;
-    margin-top: 6%;
 }
+
+
+#back-to-top {
+    z-index: 1000;
+}
+
+
+.link-products{
+margin-top: 15%;
+}
+
 
 button:hover {
     box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
