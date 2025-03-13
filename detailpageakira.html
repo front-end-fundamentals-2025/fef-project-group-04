@@ -14,33 +14,44 @@
     <link 
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header> 
         <nav class="nav-container">
+        <div>
             <a href="index.html"> HOME PAGE</a>
+        </div>
+        <div>
             <a href="about.html"> ABOUT US</a>
-                <input type="text" placeholder="Search for postr...">
+        </div>
+        <div>
+            <input type="text" placeholder="Search for postr...">
+        </div>
+        <div>
             <a href="shoppingcart.html" class="cart-icon">
                 <img src="img/shopping-cart-icon.png">
             </a>
+        </div>
         </nav>
     </header>
     <main>
+        <div class="container">
         <section class="left-section-detailpage">
         <img src="img/akira.jpg" class="detailpage-image" alt="akira poster">
-        <h2> 1894 ARTISTIC POSTER - SPECIAL VINTAGE EDITION</h2>
-        <p> Printed in hight qulity on premium paper, the poster showcases bold graphic style with contrasting tones 
-            and symbolic visual elements such as Big Bother's ever-watching eye. Perfect for collectors or literature enthusiasts</p>
+        <h2>AKIRA MOVIE POSTER - SPECIAL EDITION</h2>
+        <p>Printed in high quality on premium paper, this poster features the haunting image of Kaneda walking through a red-lit, 
+        dystopian Tokyo. The striking contrast between light and shadow captures the tension and futuristic atmosphere of Akira.
+        The bold graphic design emphasizes the film's themes of power, corruption, and rebellion.
+        A perfect addition for collectors and fans of groundbreaking anime cinema.</p>
         </section>
         <section class="right-section-detailpage">
-            <p>.</p>
+            <button id="addToCart">Add to Cart</button>
         </section>
-        <button id="addToCart">Add to Cart</button>
+    </div>
     </main>
     <footer>
         <p> © Postr. 2025</p>
     </footer>
 </body>
-<script src="js/main.js" defer></script>
 </html>

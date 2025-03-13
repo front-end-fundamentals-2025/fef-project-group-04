@@ -1,0 +1,19 @@
+textarea{
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; 
+    width: 25%;
+}
+
+.contact-container input{
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; 
+    width: 25%;
+}
+
+.about-container, .contact-container{
+    text-align: center;
+}
