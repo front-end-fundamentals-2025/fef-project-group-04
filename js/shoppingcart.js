@@ -58,3 +58,13 @@ function updateCartSummary() {
     document.getElementById("total-cost").textContent = totalCost;
     document.getElementById("item-count").textContent = itemCount;
 }
+
+
+
+
+/*REFERENCES:
+
+https://chatgpt.com/share/67d3f03b-122c-8007-bbd3-fbb2b590fecd
+
+
+*/
